@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Сапунов](https://up.htmlacademy.ru/htmlcss/27/user/1225927).
-* Наставник: `Неизвестно`.
+* Наставник: [Магомед Кандаев](https://htmlacademy.ru/profile/magomedkandaev).
 
 ---
 
