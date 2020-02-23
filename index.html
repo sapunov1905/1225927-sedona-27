@@ -24,7 +24,7 @@
       <section>
         <!--тут будет фоновое изображение гор "img/fon.jpg" width="100" height="50" alt="Фон" -->
         <img src="img/intro-welcome.svg" width="459" height="353" alt="Надписи на фоне">
-        <h1>Sedona</h1><!--скрытый тег-->
+        <h1 class="visually-hidden">Sedona</h1>
         <!-- тут будет маска "img/intro-mask.svg" width="1202" height="59" alt="Маска" -->
       </section>
       <div>
@@ -34,9 +34,31 @@
       <section>
         <p>Заинтересовались?</p>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <button type="button">Поиск гостиницы в седоне</button>
+        <button type="button">Поиск гостиницы в Седоне</button>
         <form>
-          <!--место для формы-->
+          <p>
+            <label>Дата заезда:
+              <input type=text name="date-in">
+            </label>
+          </p>
+          <p>
+            <label>Дата выезда:
+              <input type=text name="date-out">
+            </label>
+          </p>
+          <div>
+            <label>Взрослые:
+              <button>-</button>
+                <input type="number" name="adults" min="1" value="2">
+                  <button>+</button>
+            </label>
+            <label>Дети:
+              <button>-</button>
+                <input type="number" name="kids" min="0" value="0">
+                  <button>+</button>
+            </label>
+          </div>
+          <button>Найти</button>
         </form>
       </section>
     </main>
