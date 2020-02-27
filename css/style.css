@@ -10,12 +10,16 @@ body {
   text-align: center;
   text-transform: uppercase;
 
+
+
+
+}
+.fon{
   background-color: #fff;
   background-image: url("../img/fon.jpg");
   background-position: top center;
   background-repeat: no-repeat;
 }
-
 a {
   text-decoration: none;
 }
@@ -204,4 +208,13 @@ a {
 
 ul {
   list-style: none;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: bold;
+}
+
+span {
+  color: #333333;
 }
