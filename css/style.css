@@ -183,7 +183,7 @@ a {
 }
 
 .rating {
-  color: #666;
+  color: #666666;
 }
 
 .results-button {
@@ -215,6 +215,6 @@ h3 {
   font-weight: bold;
 }
 
-span {
+.view {
   color: #333333;
 }
