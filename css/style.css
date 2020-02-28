@@ -206,11 +206,11 @@ a {
   background-color: #503e33;
 }
 
-ul {
+.stars {
   list-style: none;
 }
 
-h3 {
+.name-size {
   font-size: 21px;
   font-weight: bold;
 }
