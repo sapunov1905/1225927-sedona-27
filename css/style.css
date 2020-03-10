@@ -539,7 +539,7 @@ font: inherit;
 }
 
 .raiting {
-  display: flex;
+  display: inline-block;
   width: 110px;
   min-height: 27px;
   padding: 3px 0;
