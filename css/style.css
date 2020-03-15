@@ -239,11 +239,50 @@ font: inherit;
   width: 180px;
 }
 
+.forms-hotel{
+  display: flex;
+  text-align: right;
+}
+
 .hotel-date,
 .hotel-persons {
-  width: 346px;
+  width: 306px;
   min-height: 38px;
   padding: 6px 12px;
+}
+
+.index-search__form-calendar {
+  display: flex;
+  position:relative;
+
+
+  width: 40px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.index-search__form-calendar:hover svg,
+.index-search__form-calendar:focus svg,
+.index-search__form-calendar:hover,
+.index-search__form-calendar:focus {
+  outline: none;
+  fill: #000000;
+
+  cursor: pointer;
+}
+
+.index-search__form-calendar:active svg {
+  outline: none;
+
+  fill: #81b3d2;
+}
+
+.index-search__form-calendar svg{
+  position: relative;
+  margin-left: auto;
+    margin-right: auto;
 }
 
 .hotel-persons {
@@ -254,7 +293,6 @@ font: inherit;
 
 
 .search-form input {
-  font: inherit;
   border: none;
   background-color: #f2f2f2;
 }
@@ -350,7 +388,8 @@ font: inherit;
 }
 
 .main-footer{
-  display: flex;
+ display: flex;
+  justify-content: space-between;
   align-items: center;
   min-height: 120px;
   padding-right: 122px;
@@ -404,6 +443,36 @@ font: inherit;
 .creator-logo:active{
   fill: #bdbbbc;
 }
+
+.index-search__form-date {
+  position: relative;
+}
+.index-search__form-date,
+.index-search__guests-number {
+  width: 346px;
+  padding: 6px 12px;
+}
+.index-search__form-date,
+.index-search__guests-number,
+.index-search__form-btn {
+  height: 38px;
+
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.index-search__form-date::placeholder {
+  color: #000000;
+  opacity: 1;
+}
+
 
 /* Каталог */
 
