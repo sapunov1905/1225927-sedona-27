@@ -28,6 +28,83 @@
 
     <main class="hotels-main">
 
+      <section class="filters">
+          <h2 class="visually-hidden">Фильтр товаров</h2>
+          <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+            <fieldset>
+              <legend>Инфраструктура:</legend>
+              <ul>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="swimming-pool" id="filter-swimming-pool" checked>
+                  <label for="filter-swimming-pool">Бассейн</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="parking" id="filter-parking">
+                  <label for="filter-parking">Парковка</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="wi-fi" id="filter-wi-fi">
+                  <label for="filter-wi-fi">Wi-Fi</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset>
+              <legend>Тип жилья:</legend>
+              <ul>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="hostel" id="filter-hostel" checked>
+                  <label for="filter-hostel">Гостиница</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="motel" id="filter-motel" checked>
+                  <label for="filter-motel">Мотель</label>
+                </li>
+                <li class="filter-option">
+                  <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="appartment" id="filter-appartment" checked>
+                  <label for="filter-appartment">Апартаменты</label>
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+
+          <div class="filter-range">
+            <div class="filter-range-title">Стоимость в сутки (р):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="number" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="number" name="max-price" value="3000"></label>
+            </div>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+            <button class="btn-transparent" type="submit">Показать</button>
+          </div>
+        </section>
+
+        <section class="filter-result">
+          <p class="found">Найдено: 3</p>
+          <ul class="filter-features">
+            <li class="sorting">Сортировка:</li>
+            <li><a class="by-price" href="#">По цене</a></li>
+            <li><a class="by-type" href="#">По типу</a></li>
+            <li><a class="by-rating" href="#">По рейтингу</a></li>
+          </ul>
+          <ul class="arrows">
+            <li><button class="arrow up-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#231F20" d="M5.5 0L0 10h11z"/></svg>
+            </button>
+            </li>
+            <li><button class="arrow down-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10"><path fill="#231F20" d="M5.5 10L0 0h11"/></svg>
+            </button>
+            </li>
+          </ul>
+        </section>
+
       <section class="hotels">
           <ul class="hotel-list">
             <li class="hotel-item">
