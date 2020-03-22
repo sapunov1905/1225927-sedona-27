@@ -293,6 +293,11 @@ font: inherit;
   position: relative;
 }
 
+iframe{
+  border: 0;
+}
+
+
 .map-field {
   width: 100%;
   z-index: 5;
