@@ -295,6 +295,7 @@ font: inherit;
 
 .map-field {
   width: 100%;
+  z-index: 5;
 }
 
 .form-item-wrapper {
@@ -469,10 +470,13 @@ font: inherit;
 }
 
 .main-footer{
+  width: 100%;
+  position: relative;
+  z-index: 1;
   display: flex;
   align-items: center;
   height: 120px;
-  margin: 0 101px 0 123px;
+
   padding-top: 0;
   color: #000000;
   background-color: rgba(255, 255, 255, 0.9);
@@ -488,6 +492,7 @@ font: inherit;
   flex-direction: column;
   align-items: baseline;
   margin-right: 178px;
+  margin-left: 123px;
 }
 
 .footer-hashtag,
