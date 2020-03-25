@@ -1,13 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 14px;
   font-weight: normal;
   color: #000;
   line-height: 26px;
-
   text-transform: uppercase;
 }
 
@@ -20,13 +18,11 @@ body {
 .visually-hidden,
 .visually-hidden:not(:focus):not(:active) {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -37,7 +33,6 @@ body {
   width: 1200px;
   height: 510px;
   padding-top: 76px;
-
   text-align: center;
   background-color: #fff;
   background-image: url("../img/fon.jpg");
@@ -58,8 +53,6 @@ body {
 a {
   text-decoration: none;
 }
-
-
 
 button.search-form-btn {
   min-height: 58px;
@@ -93,15 +86,11 @@ button.search-form-btn:active {
   position: absolute;
   top: 0;
   right: -34px;
-
   width: 22px;
   height: 22px;
-
   font-size: 0;
-
   background-color: transparent;
   border: 0;
-
   cursor: pointer;
 }
 
@@ -118,15 +107,14 @@ button.search-form-btn:active {
   display: flex;
   margin: 0;
   padding: 0;
-
   list-style: none;
 }
 
 .navigation-item {
   width: 240px;
   padding: 15px 0;
-
-  text-align: center;
+  text-align: left;
+  margin-left: 71px;
 }
 
 .navigation-item:nth-child(2) {
@@ -148,7 +136,6 @@ button.search-form-btn:active {
 
 .main-index {
   text-align: center;
-
   background-color: #ffffff;
 }
 
@@ -160,7 +147,7 @@ button.search-form-btn:active {
 
 .main-description {
   width: 636px;
-  margin: 0 auto 37px;
+  margin: -2px auto 28px;
   padding: 0 15px;
   text-align: center;
   text-transform: uppercase;
@@ -172,11 +159,11 @@ button.search-form-btn:active {
 
 .text-features {
   margin-top: 24px;
-
+  color: #333333;
 }
 
 .main-map {
-  margin: 55px 0 28px 0;
+  margin: 52px 0 23px 0;
   font-size: 30px;
   font-weight: bold;
   line-height: 36px;
@@ -189,7 +176,7 @@ button.search-form-btn:active {
 .select-map {
   line-height: 24px;
   color: #333;
-  margin: 0 auto 42px;
+  margin: 0 auto 47px;
 }
 
 .form {
@@ -199,19 +186,19 @@ button.search-form-btn:active {
 
 @keyframes bounce {
   0% {
-    transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
   }
 
   70% {
-    transform: translateY(30px);
+    -ms-transform: translateY(30px);
   }
 
   90% {
-    transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
   }
 
   100% {
-    transform: translateY(0);
+    -ms-transform: translateY(0);
   }
 }
 
@@ -224,7 +211,6 @@ button.search-form-btn:active {
 }
 
 @keyframes shake {
-
   0%,
   100% {
     transform: translateX(0);
@@ -248,7 +234,6 @@ button.search-form-btn:active {
 
 .button-size button {
   font: inherit;
-
   border: none;
   font-weight: bold;
   color: #a9a9a9;
@@ -257,13 +242,11 @@ button.search-form-btn:active {
 .search-button-map {
   width: 568px;
   padding: 30px 0;
-
   font-size: 21px;
   line-height: 26px;
   font-family: "PT Sans", Arial, sans-serif;
   font-weight: bold;
   text-transform: uppercase;
-
   color: #ffffff;
   background-color: #766357;
   border: none;
@@ -276,7 +259,6 @@ button.search-form-btn:active {
 
 .search-button-map:active {
   color: rgba(255, 255, 255, 0.3);
-
   background-color: #503e33;
 }
 
@@ -285,10 +267,8 @@ button.search-form-btn:active {
   z-index: 1;
   color: #000000;
   font-weight: bold;
-
   background-color: #ffffff;
   box-shadow: 0 7px 15px 0px rgba(0, 1, 1, 0.15);
-
   display: flex;
   flex-direction: column;
   width: 568px;
@@ -305,7 +285,6 @@ button.search-form-btn:active {
 iframe {
   border: 0;
 }
-
 
 .map-field {
   width: 100%;
@@ -353,13 +332,11 @@ iframe {
 
 .index-search__form-calendar {
   position: absolute;
-  right: 60px;
-
+  right: 58px;
 
   margin: 0;
   padding-top: 2px;
   border: 0;
-
   line-height: 37px;
   font-weight: bold;
   font-size: 22px;
@@ -371,17 +348,14 @@ iframe {
 .index-search__form-calendar:hover,
 .index-search__form-calendar:focus {
   color: #000000;
-
   outline: none;
   cursor: pointer;
 }
 
 .hotel-persons {
   width: 114px;
-
   text-align: center;
 }
-
 
 .search-form input {
   border: none;
@@ -395,18 +369,15 @@ iframe {
 .search-form input:focus {
   outline: none;
   border: 2px solid #e5e5e5;
-
   background-color: #fff;
 }
 
 .index-search__minus-btn {
   position: absolute;
   left: 14px;
-
   margin: 0;
   padding: 0;
   border: 0;
-
   line-height: 33px;
   font-size: 37px;
   letter-spacing: -2px;
@@ -417,11 +388,9 @@ iframe {
 .index-search__plus-btn {
   position: absolute;
   right: 14px;
-
   margin: 0;
   padding: 0;
   border: 0;
-
   line-height: 37px;
   font-weight: bold;
   font-size: 22px;
@@ -435,7 +404,6 @@ iframe {
 .index-search__plus-btn:hover,
 .index-search__plus-btn:focus {
   color: #000000;
-
   outline: none;
   cursor: pointer;
 }
@@ -449,7 +417,6 @@ iframe {
   color: #81b3d2;
 }
 
-
 .button-social {
   display: flex;
   justify-content: center;
@@ -457,7 +424,6 @@ iframe {
   width: 46px;
   height: 48px;
   margin-right: 6px;
-
   background-color: #81b3d2;
 }
 
@@ -485,7 +451,6 @@ iframe {
   display: flex;
   align-items: center;
   height: 120px;
-
   padding-top: 0;
   color: #000000;
   background-color: rgba(255, 255, 255, 0.9);
@@ -494,14 +459,14 @@ iframe {
 .main-footer-item {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .main-footer-contacts {
   flex-direction: column;
   align-items: baseline;
-  margin-right: 178px;
-  margin-left: 123px;
+  margin-right: 175px;
+  margin-left: 127px;
+  margin-bottom: 7px;
 }
 
 .footer-hashtag,
@@ -509,7 +474,6 @@ iframe {
   text-decoration: none;
   padding: 0;
   margin: 0;
-
   font-size: 21px;
   line-height: 33px;
   font-weight: bold;
@@ -520,7 +484,7 @@ iframe {
 }
 
 .main-footer-social {
-  margin: 0 228px 0 0;
+  margin: 0 224px 4px 0;
   list-style: none;
   padding: 0;
 }
@@ -528,8 +492,8 @@ iframe {
 .creator-logo {
   fill: #000000;
   width: 115px;
-  height: 41px;
-  margin-left: 8px;
+  height: 51px;
+  margin-left: 11px;
 }
 
 .creator-logo:hover,
@@ -555,14 +519,12 @@ iframe {
 .index-search__guests-number,
 .index-search__form-btn {
   height: 38px;
-
   font-size: 14px;
   line-height: 14px;
   color: #000000;
   font-weight: bold;
   text-transform: uppercase;
   font-family: "PT Sans", Arial, sans-serif;
-
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
 }
@@ -580,7 +542,6 @@ iframe {
   line-height: 21px;
   font-size: 21px;
   vertical-align: middle;
-
   width: 100%;
   height: 255px;
   margin: 0;
@@ -606,9 +567,8 @@ iframe {
   background-color: #ffffff;
   text-align: center;
   vertical-align: middle;
-
   width: 1200px;
-  height: 255px;
+  height: 258px;
   margin: 0 auto;
   display: flex;
 }
@@ -619,20 +579,21 @@ iframe {
 
 .city-advantage h2,
 .area-advantage h2 {
+  margin-top: 23px;
   font-size: 21px;
   line-height: 21px;
 }
 
 .text-heading {
   width: 117px;
-  margin-left: 117px;
-  margin-top: 29px;
-  margin-bottom: 10px;
+  margin-left: 141px;
+  margin-bottom: 21px;
 }
 
 .text-explanation {
-  width: 208px;
+  width: 261px;
   margin-left: 70px;
+  margin-top: 20px;
 }
 
 .city-advantage p,
@@ -647,18 +608,17 @@ iframe {
 .city-advantage {
   width: 400px;
   margin: 60px 50px 68px;
-
 }
 
 .description {
   width: 400px;
-  margin: 43px 0 64px 0;
+  margin: 45px 0 64px 0;
 }
 
 .description h2 {
   font-size: 21px;
-  line-height: 26px;
-  margin: 0 0 15px 125px;
+  line-height: 23px;
+  margin: 0 0 19px 125px;
   width: 151px;
 }
 
@@ -670,7 +630,7 @@ iframe {
 
 .area-advantage {
   width: 400px;
-  padding: 25px;
+  padding-top: 25px;
   background-color: #eeeeee;
 }
 
@@ -691,14 +651,14 @@ iframe {
 }
 
 .filter fieldset {
-  margin-top: 25px;
+  margin-top: 28px;
   margin-left: 60px;
   border: none;
 }
 
 .filter fieldset:last-child {
   margin-right: 337px;
-  margin-left: 88px;
+  margin-left: 98px;
 }
 
 .filter legend {
@@ -723,14 +683,11 @@ iframe {
   font-size: 14px;
   line-height: 21px;
   font-weight: 400;
-
 }
 
 .filter-option label {
   position: relative;
-
   display: block;
-
   cursor: pointer;
   user-select: none;
 }
@@ -740,7 +697,6 @@ iframe {
   position: absolute;
   left: -42px;
   top: 0;
-
   width: 25px;
   height: 25px;
   background-image: url("../img/checkbox-off.svg");
@@ -753,7 +709,6 @@ iframe {
   position: absolute;
   left: -42px;
   top: 0;
-
   width: 25px;
   height: 25px;
   background-image: url("../img/checkbox-on.svg");
@@ -786,16 +741,15 @@ iframe {
 }
 
 .filter-range {
-  width: 318px;
-  margin-top: 31px;
-
+  width: 316px;
+  margin-top: 28px;
   color: #ffffff;
   text-transform: uppercase;
 }
 
 .filter-range-title {
-  margin-bottom: 9px;
-
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 600;
   font-size: 16px;
   line-height: 21px;
@@ -803,12 +757,9 @@ iframe {
 
 .price-controls {
   position: relative;
-
-  height: 39px;
+  height: 36px;
   margin-bottom: 20px;
-
   font-size: 0;
-
   border: 2px solid #ffffff;
   border-radius: 2px;
 }
@@ -818,33 +769,28 @@ iframe {
   position: absolute;
   top: 50%;
   left: 50%;
-
   width: 2px;
   height: 22px;
-
   background: #ffffff;
   transform: translate(-50%, -50%);
 }
 
 .price-controls label {
   display: inline-block;
-
   font-size: 14px;
-  line-height: 38px;
+  line-height: 35px;
   vertical-align: top;
-
   cursor: pointer;
 }
 
 .min-price {
   margin-left: 65px;
   font-weight: bold;
-
 }
 
 .max-price {
   float: right;
-  margin-right: 30px;
+  margin-right: 34px;
   font-weight: bold;
 }
 
@@ -852,40 +798,33 @@ iframe {
   width: 47px;
   height: 35px;
   margin: 0;
-
   color: inherit;
   font: inherit;
-
   background: none;
   border: none;
 }
 
 .range-controls {
   position: relative;
-
   margin-bottom: 32px;
 }
 
 .range-controls .scale {
   height: 2px;
-
   background: rgba(255, 255, 255, 0.3);
 }
 
 .range-controls .bar {
   width: 80%;
   height: 2px;
-
   background: #ffffff;
 }
 
 .range-toggle {
   position: absolute;
   top: -9px;
-
   width: 4px;
   height: 4px;
-
   background: #ababab;
   border: 8px solid #ffffff;
   border-radius: 50%;
@@ -903,14 +842,12 @@ iframe {
 
 .btn-transparent {
   display: block;
-  margin: 0 auto;
+  margin-left: 82px;
   padding: 6px 35px;
-
   font-size: 14px;
   line-height: 20px;
   color: #ffffff;
   text-transform: uppercase;
-
   background: transparent;
   border: 2px solid #ffffff;
   border-radius: 2px;
@@ -919,10 +856,8 @@ iframe {
 
 .btn-transparent:hover {
   color: #000000;
-
   background: #ffffff;
 }
-
 
 .filter-result {
   display: flex;
@@ -936,7 +871,7 @@ iframe {
   margin-top: 30px;
   font-size: 21px;
   line-height: 26px;
-  margin-right: 48px;
+  margin-right: 50px;
   font-weight: bold;
 }
 
@@ -952,7 +887,6 @@ iframe {
   font-size: 12px;
   line-height: 18px;
   font-weight: 400;
-
 }
 
 .sorting {
@@ -1040,21 +974,16 @@ iframe {
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-
 
 .hotel-list {
   margin: 0;
@@ -1063,32 +992,27 @@ input[type="radio"].visually-hidden {
 
 .hotel-info-left {
   display: flex;
-  margin-left: 72px;
-
+  margin-left: 71px;
 }
 
 .hotel-item {
   display: flex;
+  padding-top: 30px;
+  padding-bottom: 29px;
   justify-content: space-between;
   align-items: flex-start;
   min-height: 121px;
-  margin-top: 30px;
-
   font-size: 14px;
   line-height: 21px;
-
   border-bottom: 1px solid #e5e5e5;
   background-color: #ffffff;
 }
-
 
 .hotel-item-info {
   display: block;
   min-height: 90px;
   margin-left: 30px;
 }
-
-
 
 .hotels {
   background-color: #ffffff;
@@ -1099,7 +1023,7 @@ input[type="radio"].visually-hidden {
   width: 100%;
   margin: 0;
   padding-bottom: 2px;
-  padding-top: 3px;
+  padding-top: 0;
   display: flex;
   font-size: 21px;
   line-height: 26px;
@@ -1120,11 +1044,13 @@ input[type="radio"].visually-hidden {
 .hotel-item-details {
   width: 100%;
   display: flex;
-  margin-bottom: 18px;
+  margin-top: 10px;
+  margin-bottom: 14px;
 }
 
 .hotel-diversity,
 .hotel-price {
+  margin-top: -7px;
   width: 115px;
   font-size: 14px;
   line-height: 21px;
@@ -1133,23 +1059,22 @@ input[type="radio"].visually-hidden {
 }
 
 .hotel-diversity {
-  margin-right: 8px;
+  margin-right: 1px;
 }
 
 .hotel-details,
 .hotel-book {
   width: 110px;
-  padding: 6px 17px;
+  padding: 5px 17px;
   font-size: 14px;
   line-height: 21px;
   color: #ffffff;
   font-weight: bold;
-
   background-color: #81b3d2;
 }
 
 .hotel-details {
-  margin-right: 6px;
+  margin-right: 1px;
 }
 
 .hotel-details:hover {
@@ -1158,7 +1083,6 @@ input[type="radio"].visually-hidden {
 
 .hotel-details:active {
   color: rgba(255, 255, 255, 0.3);
-
   background-color: #5496bd;
 }
 
@@ -1173,13 +1097,12 @@ input[type="radio"].visually-hidden {
 
 .hotel-book:active {
   color: rgba(255, 255, 255, 0.3);
-
   background-color: #503e33;
 }
 
 .hotel-item-rate {
   display: block;
-  margin-right: 73px;
+  margin-right: 71px;
   justify-content: space-between;
   width: 110px;
   height: 90px;
@@ -1194,23 +1117,19 @@ input[type="radio"].visually-hidden {
   text-align: center;
   font-size: 14px;
   line-height: 21px;
-
   color: #666666;
-
   background-color: #f2f2f2;
 }
-
 
 .stars {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-
   padding-bottom: 35%;
 }
 
 .margin-stars {
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .name-size {
@@ -1228,7 +1147,6 @@ input[type="radio"].visually-hidden {
   background-color: #ffffff;
   box-shadow: 0 0 15px rgba(0, 1, 1, 0.2);
 }
-
 
 .header-logo {
   position: absolute;
